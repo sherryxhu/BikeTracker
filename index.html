@@ -3,14 +3,14 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Maxim - Modern One Page Bootstrap Template</title>
+	<title>Bike Tracker</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<link href="css/bootstrap-responsive.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="color/default.css" rel="stylesheet">
-	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="shortcut icon" href="img/bike.ico">
 	<!-- =======================================================
     Theme Name: Maxim
     Theme URL: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/
@@ -135,7 +135,7 @@
 							<h2>Data visualization via <strong> boxplot </strong>: </h2>
 							<p>
 								Riders travel an average distance of 6.203 km, with a high 
-								standarad error of 254.42 km.  
+								standard error of 254.42 km.  
 								The distribution of distances is skewed, with some high outliers.
 							</p>
 						</div>
@@ -180,19 +180,72 @@
 		<div class="container">
 			<h4>Trends by Season</h4>
 			<div class = "aligncenter">
-					<h3>Quarters will be used to explore seasonal changes. All data is from quarters 3 and 4. </h3>
-					<div class = "alignleft">
-						<h5><i>i. Looking at total rides per quarter: </i></h5>
+				<h3><strong>Quarters</strong> will be used to explore seasonal changes. All data is from quarters 3 and 4.</h3>
+				<p class = "alignleft">
+					<strong><i>i. Looking at total rides per quarter: </i></strong>
+				</p></div>
+			
+			<div class="row">
+				<div class="span5">
+					<div>
+						<div class="center">
+							<img src="img/icons/seasonQuarters.png" style="width:350px;height:300px;" />
+						</div>
 					</div>
-					
-					<p>
-						One-way trips are more popular than round trips across all passholder types. 
-						This could possibly be due to the flexibility that one-way trips provide- 
-						for example, a rider could bike to their first class, then take another bike to their
-						second class.
-					</p>
-				
+				</div>
 			</div>
+			<p class = "alignleft">
+				There are more rides in quarter 3 than quarter 4. Maybe colder weather/winter discourages 
+				riders from bikeshare and encourages other forms of transportation. 
+			</p>
+				<p class = "alignleft">
+					<strong><i>ii. Passholder Type Differences Across Quarters: </i></strong>
+				</p>
+			</div>
+			<div class="row">
+				<div class="span5">
+					<div>
+						<div class="center">
+							<img src="img/icons/seasonPasses.png" style="width:450px;height:300px;" />
+
+						</div>
+					</div>
+				</div>
+				<div class="span5">
+					<div class="center">
+						<img src="img/icons/seasonPassesHeatmap.png" style="width:450px;height:300px;" />
+					</div>
+				</div>
+			</div>
+			<p class = "alignleft2">
+					In both quarters 3 and 4, the monthly pass was the most popular, 
+					walk up was the second most popular, and flex was the least popular. 
+					Overall, there was a lower frequency of each pass in the fourth quarter.
+					 This may be due to the winter weather, which can turn people away from biking outside. 
+			</p>
+			<p class = "alignleft2">
+				<strong><i>iii. Ride Duration Across Quarters (Mean and Total): </i></strong>
+			</p>
+			<div class="row">
+					<div class="span5">
+						<div>
+							<div class="center">
+								<img src="img/icons/seasonDurationMeans.png" width ="460" height = "450" alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="span5">
+						<div class="center">
+							<img src="img/icons/seasonDurationSums.png" width="460" height = "450" alt="" />
+						</div>
+					</div>
+			</div>
+			<p class = "alignleft2">
+					Both sums and means of duration is higher in quarter 3 than in quarter 4, 
+					indicating that people are biking less in quarter 4. 
+					Like in the previous parts , it may be possible 
+					that the winter months discourage people to bike.
+			</p>
 		</div>
 	</section>
 
@@ -202,8 +255,8 @@
 		<div class="container">
 			<h4>Trip Route-Passholder Combos</h4>
 			<div class = "aligncenter">
-				<h3><strong><i>Trip Routes: </i></strong>One Way, Round Trip</h3>
-				<h3><strong><i>Passholder Types: </i></strong> Pass (365 days), Monthly Pass, Walk-up</h3>
+				<h3><strong><i>Trip Route Types: </i></strong>One Way, Round Trip</h3>
+				<h3><strong><i>Passholder Types: </i></strong> Flex Pass (365 days), Monthly Pass, Walk-up</h3>
 				<p>
 					One-way trips are more popular than round trips across all passholder types. 
 					This could possibly be due to the flexibility that one-way trips provide- 

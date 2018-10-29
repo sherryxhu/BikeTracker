@@ -259,20 +259,32 @@ h2.pagetitle {
 }
 .center {
 	margin-left: 120px;
-    width: 150%;   
+	width: 150%;  
 }
 
 .center2 {
 	margin-top: 50px;
 	margin-left: 245px;
-    width: 150%;
-    
+    width: 150%;   
 }
+
+.center3 {
+	margin-top: 30px;
+	margin-left: 80px;
+    width: 150%;   
+}
+
 .alignright {
 	text-align: right;
 }
+.alignright2 {
+	margin-right: 50px;
+}
 .alignleft {
 	text-align: left;
+}
+.alignleft2 {
+	margin-left: 50px;
 }
 .aligncenter {
 	text-align: center;
