@@ -257,6 +257,17 @@ h2.pagetitle {
 	overflow: hidden;
 	font-size: 1em;
 }
+.center {
+	margin-left: 120px;
+    width: 150%;   
+}
+
+.center2 {
+	margin-top: 50px;
+	margin-left: 245px;
+    width: 150%;
+    
+}
 .alignright {
 	text-align: right;
 }
@@ -734,7 +745,6 @@ section#services h2 {
 section#services p {
 	margin:10px;
 }
-
 
 section#services .service-box {
 	text-align: center;
